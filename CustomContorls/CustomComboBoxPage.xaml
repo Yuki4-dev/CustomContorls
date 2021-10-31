@@ -1,0 +1,122 @@
+﻿<Page x:Class="CustomContorls.CustomComboBoxPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CustomContorls" 
+      xmlns:controls="clr-namespace:CustomContorls.Controls"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="CustomComboBoxPage">
+
+    <Grid>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel>
+            
+            <ComboBox>
+                <ComboBoxItem IsSelected="True">hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+            </ComboBox>
+            
+        </StackPanel>
+
+        <StackPanel Grid.Column="1">
+            <controls:CustomComboBox>
+                <ComboBoxItem IsSelected="True">hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+            </controls:CustomComboBox>
+
+        </StackPanel>
+
+        <StackPanel Grid.Column="2">
+            <controls:CustomComboBox PopupScrollBarBrush="BlueViolet"
+                                     SelectVisual="Tab"
+                                     FontSize="18"
+                                     ItemMargin="4"
+                                     ButtonCornerRadius="8"
+                                     PopupCornerRadius="8"
+                                     ItemSelectCornerRadius="4"
+                                     SelectedItemBrush="BlueViolet"
+                                     BorderThickness="0"
+                                     PopupBorderBrush="BlueViolet"
+                                     Background="WhiteSmoke"
+                                     Foreground="BlueViolet">
+
+                <ComboBoxItem IsSelected="True">hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+                <ComboBoxItem>hoge1</ComboBoxItem>
+                <ComboBoxItem>hoge2</ComboBoxItem>
+                <ComboBoxItem>hoge3</ComboBoxItem>
+            </controls:CustomComboBox>
+
+        </StackPanel>
+
+    </Grid>
+</Page>
