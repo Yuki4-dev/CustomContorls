@@ -6,8 +6,45 @@
       xmlns:local="clr-namespace:CustomContorls" 
       xmlns:controls="clr-namespace:CustomContorls.Controls"
       mc:Ignorable="d" 
+      xmlns:col="clr-namespace:System.Collections;assembly=mscorlib"
       d:DesignHeight="450" d:DesignWidth="800"
       Title="CustomComboBoxPage">
+
+    <Page.Resources>
+        <col:ArrayList x:Key="Items">
+            <ComboBoxItem>hoge1</ComboBoxItem>
+            <ComboBoxItem>hoge2</ComboBoxItem>
+            <ComboBoxItem>hoge3</ComboBoxItem>
+            <ComboBoxItem>hoge4</ComboBoxItem>
+            <ComboBoxItem>hoge5</ComboBoxItem>
+            <ComboBoxItem>hoge6</ComboBoxItem>
+            <ComboBoxItem>hoge7</ComboBoxItem>
+            <ComboBoxItem>hoge8</ComboBoxItem>
+            <ComboBoxItem>hoge9</ComboBoxItem>
+            <ComboBoxItem>hoge10</ComboBoxItem>
+            <ComboBoxItem>hoge11</ComboBoxItem>
+            <ComboBoxItem>hoge12</ComboBoxItem>
+            <ComboBoxItem>hoge13</ComboBoxItem>
+            <ComboBoxItem>hoge14</ComboBoxItem>
+            <ComboBoxItem>hoge15</ComboBoxItem>
+            <ComboBoxItem>hoge16</ComboBoxItem>
+            <ComboBoxItem>hoge17</ComboBoxItem>
+            <ComboBoxItem>hoge18</ComboBoxItem>
+            <ComboBoxItem>hoge19</ComboBoxItem>
+            <ComboBoxItem>hoge20</ComboBoxItem>
+            <ComboBoxItem>hoge21</ComboBoxItem>
+            <ComboBoxItem>hoge22</ComboBoxItem>
+            <ComboBoxItem>hoge23</ComboBoxItem>
+            <ComboBoxItem>hoge24</ComboBoxItem>
+            <ComboBoxItem>hoge25</ComboBoxItem>
+            <ComboBoxItem>hoge26</ComboBoxItem>
+            <ComboBoxItem>hoge27</ComboBoxItem>
+            <ComboBoxItem>hoge28</ComboBoxItem>
+            <ComboBoxItem>hoge29</ComboBoxItem>
+            <ComboBoxItem>hoge30</ComboBoxItem>
+        </col:ArrayList>
+       
+    </Page.Resources>
 
     <Grid>
         
@@ -18,63 +55,11 @@
         </Grid.ColumnDefinitions>
 
         <StackPanel>
-            
-            <ComboBox>
-                <ComboBoxItem IsSelected="True">hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-            </ComboBox>
-            
+            <ComboBox ItemsSource="{StaticResource Items}"/>
         </StackPanel>
 
         <StackPanel Grid.Column="1">
-            <controls:CustomComboBox>
-                <ComboBoxItem IsSelected="True">hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-            </controls:CustomComboBox>
-
+            <controls:CustomComboBox ItemsSource="{StaticResource Items}"/>
         </StackPanel>
 
         <StackPanel Grid.Column="2">
@@ -89,33 +74,8 @@
                                      BorderThickness="0"
                                      PopupBorderBrush="BlueViolet"
                                      Background="WhiteSmoke"
-                                     Foreground="BlueViolet">
-
-                <ComboBoxItem IsSelected="True">hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-                <ComboBoxItem>hoge1</ComboBoxItem>
-                <ComboBoxItem>hoge2</ComboBoxItem>
-                <ComboBoxItem>hoge3</ComboBoxItem>
-            </controls:CustomComboBox>
-
+                                     Foreground="BlueViolet"
+                                     ItemsSource="{StaticResource Items}"/>
         </StackPanel>
 
     </Grid>
