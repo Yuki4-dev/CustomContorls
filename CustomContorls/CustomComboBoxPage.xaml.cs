@@ -20,9 +20,16 @@ namespace CustomContorls
     /// </summary>
     public partial class CustomComboBoxPage : Page
     {
+        public List<String> Items { get; } = new();
+
         public CustomComboBoxPage()
         {
             InitializeComponent();
+            for (int i = 0; i < 30; i++)
+                Items.Add($"custom{i}");
+
+
+            this.DataContext = this;
         }
     }
 }
